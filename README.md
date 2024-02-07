@@ -1,12 +1,12 @@
-#Weather Dashboard
-##Description
+# Weather Dashboard
+## Description
 The Weather Dashboard project provides a simple interface for users to search for the current weather of a city. It utilizes the OpenWeatherMap API to fetch weather data and display it on the webpage.
 
-##Features
+## Features
 Users can enter the name of a city in the input field and click the "Search" button to retrieve the current weather information.
 The dashboard displays the temperature, humidity, and wind speed of the searched city.
 Error handling is implemented to manage network errors and display appropriate messages.
-##Usage
+## Usage
 To use the Weather Dashboard:
 
 Go to https://llyakll.github.io/its-not-the-heat-its-the-humidity/
@@ -16,13 +16,13 @@ The current weather information for the entered city will be displayed on the we
 ##Screenshots
 
 
-##Technologies Used
+## Technologies Used
 HTML
 CSS
 JavaScript
 OpenWeatherMap API
 Setup
-##To set up the project locally:
+## To set up the project locally:
 
 Clone this repository to your local machine.
 Open the index.html file in a web browser.
