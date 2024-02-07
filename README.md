@@ -28,6 +28,7 @@ Clone this repository to your local machine.
 Open the index.html file in a web browser.
 ## Credits
 This project was created by llYakll
+<br>
 Damien, will put his gh as soon as I find it again.
 Thanks for handling ALL of my questions man, stg i'd faill if it wasn't for your help!
 ## License
