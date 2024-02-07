@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./assets/styles.css">
-    <title>Weather App</title>
 </head>
 <body>
-    <section class="app-container">
-        <section class="form-container">
-            <form id="weatherForm" class="form">
-                <label for="cityInput" class="city-label">Enter City:</label>
-                <input type="text" id="cityInput" name="city" required>
-                <button type="submit">Search</button>
-            </form>
-        </section>
-        <section class="weather-info-container">
-            <div id="currentWeather" class="weather-info"></div>
-            <div id="forecastWeather" class="weather-info"></div>
-        </section>
+    <h1>Weather Dashboard</h1>
+    
+    <form id="city-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button type="submit">Search</button>
+    </form>
+
+    <section id="search-history" class="hidden">
+        <h2>Recently Searched</h2>
+        <!-- Search history. -->
     </section>
+
+    <section id="current-weather">
+        <!-- Current weather data. -->
+    </section>
+
+    <section id="forecast">
+        <!-- 5-day forecast. -->
+    </section>
+
     <script src="./assets/script.js"></script>
 </body>
-</html>
